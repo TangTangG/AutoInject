@@ -1,7 +1,7 @@
 # AutoInject
 This a project that can help you build your manager.<br>
 Especially for class that need to be controlled under different packages.<br>
-Like the [Test(module)](.src/main/java/com/todo/autoinject).<br>
+Like the [Test(module)](./src/main/java/com/todo/autoinject).<br>
 
 **package-a**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**CollectionA.java**<br>
