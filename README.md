@@ -37,3 +37,17 @@ When the (Manager)Class be initialed,do like this:
 ```java
 AutoCollect.begin(new CollectionManager());
 ```
+And then, you can use you Manager like used to.
+## How to initial Object with prams?
+```java
+public interface CollectionIface extends InjectIface {
+}
+```
+The super class extend/implements **InjectIface**,witch provider an common method
+```java
+public void inject(Object[] args) {
+
+}
+```
+but now this method has to call by yourself.
+In the next version we may call inject when it has been processored.
